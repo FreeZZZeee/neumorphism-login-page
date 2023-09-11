@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Страница авторизации</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="container register-form" id="register-form">
+            <form action="" id="register-form" method="" class="form">
+                <h2 class="form-title title">
+                    Создать аккаунт
+                </h2>
+                <div class="form-icon"></div>
+                <input type="text" class="form-input" placeholder="Логин">
+                <input type="email" class="form-input" placeholder="Email">
+                <input type="password" class="form-input" placeholder="Пароль">
+                <button class="form-button button submit">Регистрация</button>
+            </form>
+        </div>
+
+        <div class="container login-form" id="login-form">
+            <form action="" id="login-form" method="" class="form">
+                <h2 class="form-title title">
+                    Вход
+                </h2>
+                <div class="form-icon"></div>
+                <input type="email" class="form-input" placeholder="Email">
+                <input type="password" class="form-input" placeholder="Пароль">
+                <a href="#" class="form-link">Забыли пароль?</a>
+                <button class="form-button button submit">Вход</button>
+            </form>
+        </div>
+
+        <div class="switch" id="switch-frm">
+            <div class="switch-circle"></div>
+            <div class="switch-circle switch-circle-t"></div>
+            <div class="switch-form" id="switch-f1">
+                <h2 class="switch-title title">
+                    С возвращением!
+                </h2>
+                <p class="switch-description description">
+                    Чтобы поддерживать с нами связь, пожалуйста, войдите в систему, указав свои личные данные.
+                </p>
+                <button class="switch-button button switch-btn">Вход</button>
+            </div>
+
+            <div class="switch-form is-hidden" id="switch-f2">
+                <h2 class="switch-title title">
+                    Добро пожаловать!
+                </h2>
+                <p class="switch-description description">
+                    Введите свои личные данные и начните путешествие вместе с нами.
+                </p>
+                <button class="switch-button button switch-btn">Регистрация</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
